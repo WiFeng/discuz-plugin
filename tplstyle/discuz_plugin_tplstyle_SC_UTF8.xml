@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3.1]]></item>
+	<item id="Time"><![CDATA[2014-07-05 16:59]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/dx31/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[自由风格]]></item>
+			<item id="identifier"><![CDATA[tplstyle]]></item>
+			<item id="description"><![CDATA[让你的站点个性起来吧。门户、空间、论坛、应用等等每个模块，每个页面都可以使用独有风格。]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[tplstyle/]]></item>
+			<item id="copyright"><![CDATA[WiFeng]]></item>
+			<item id="version"><![CDATA[1.0.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[style]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[admincp]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[管理]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[setting]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[配置]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1,X3.2]]></item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="edit"><![CDATA[编辑]]></item>
+				<item id="delete"><![CDATA[删除]]></item>
+				<item id="delete_succeed"><![CDATA[删除成功]]></item>
+				<item id="delete_error"><![CDATA[删除失败]]></item>
+				<item id="edit_succeed"><![CDATA[修改成功]]></item>
+				<item id="edit_error"><![CDATA[修改失败]]></item>
+				<item id="add_succeed"><![CDATA[添加成功]]></item>
+				<item id="add_error"><![CDATA[添加失败]]></item>
+				<item id="tips_admincp"><![CDATA[<li>优先级将按照阿拉伯数字从小到大的顺序排列，越靠前，优先级越高</li><li>删除操作不可逆，请确认后再执行</li>]]></item>
+				<item id="tips_setting"><![CDATA[<li>如果要为多个域名分别配置不同的界面风格，请添加多条规则</li><li>请认真填写每一项之后再设置为开启状态</li>]]></item>
+				<item id="manage"><![CDATA[规则]]></item>
+				<item id="priority"><![CDATA[优先级]]></item>
+				<item id="style"><![CDATA[界面风格]]></item>
+				<item id="domain"><![CDATA[域名]]></item>
+				<item id="module"><![CDATA[模块]]></item>
+				<item id="param"><![CDATA[参数]]></item>
+				<item id="switch"><![CDATA[开启]]></item>
+				<item id="oper"><![CDATA[操作]]></item>
+				<item id="yes"><![CDATA[是]]></item>
+				<item id="no"><![CDATA[否]]></item>
+				<item id="domain_comment"><![CDATA[如：www.comsenz.com]]></item>
+				<item id="param_comment"><![CDATA[如：topicid=1&page=2]]></item>
+				<item id="priority_comment"><![CDATA[多条规则同时适用时，将参考这个设置项]]></item>
+				<item id="confirm_delete"><![CDATA[您确定要执行删除吗？]]></item>
+				<item id="forum"><![CDATA[论坛]]></item>
+				<item id="forum-index"><![CDATA[首页]]></item>
+				<item id="forum-forumdisplay"><![CDATA[帖子列表]]></item>
+				<item id="forum-viewthread"><![CDATA[帖子正文]]></item>
+				<item id="forum-guide"><![CDATA[导读]]></item>
+				<item id="forum-collection"><![CDATA[淘帖]]></item>
+				<item id="forum-modcp"><![CDATA[管理面板]]></item>
+				<item id="forum-group"><![CDATA[群组]]></item>
+				<item id="home"><![CDATA[家园]]></item>
+				<item id="home-space"><![CDATA[空间]]></item>
+				<item id="home-follow"><![CDATA[广播]]></item>
+				<item id="home-spacecp"><![CDATA[设置]]></item>
+				<item id="portal"><![CDATA[门户]]></item>
+				<item id="portal-index"><![CDATA[首页]]></item>
+				<item id="portal-list"><![CDATA[文章列表]]></item>
+				<item id="portal-view"><![CDATA[文章正文]]></item>
+				<item id="portal-topic"><![CDATA[专题]]></item>
+				<item id="portal-portalcp"><![CDATA[管理面板]]></item>
+				<item id="group"><![CDATA[群组]]></item>
+				<item id="group-index"><![CDATA[首页]]></item>
+				<item id="group-my"><![CDATA[我的群组]]></item>
+				<item id="member"><![CDATA[用户]]></item>
+				<item id="member-logging"><![CDATA[登录]]></item>
+				<item id="member-register"><![CDATA[注册]]></item>
+				<item id="misc"><![CDATA[杂项]]></item>
+				<item id="misc-tag"><![CDATA[标签]]></item>
+				<item id="misc-faq"><![CDATA[帮助]]></item>
+				<item id="misc-ranklist"><![CDATA[排行榜]]></item>
+				<item id="misc-stat"><![CDATA[统计]]></item>
+				<item id="misc-invite"><![CDATA[邀请好友]]></item>
+				<item id="userapp"><![CDATA[应用]]></item>
+				<item id="plugin"><![CDATA[插件]]></item>
+				<item id="search"><![CDATA[搜索]]></item>
+			</item>
+			<item id="templatelang">			
+			</item>
+		</item>
+	</item>
+</root>
