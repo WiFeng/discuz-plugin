@@ -4,6 +4,10 @@
  * @author WiFeng
  */
 
+if(!defined('IN_DISCUZ') || !defined('IN_ADMINCP')) {
+	exit('Access Denied');
+}
+
 $sql = <<<SQL
 CREATE TABLE IF NOT EXISTS `pre_plugin_tplstyle` (
   `id` mediumint(8) unsigned NOT NULL auto_increment,
