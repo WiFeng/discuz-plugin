@@ -30,12 +30,12 @@ class plugin_tplstyle {
                 continue;
             }
 
-            if ($val['param']) {
+            $param = json_decode($val['param'], true);
+            if ($param) {
                 if (empty($_GET)) {
                     continue;
                 }
                 $enable = false;
-                $param = json_decode($val['param'], true);
                 foreach ($param as $vv) {
                     parse_str($vv, $pp);
                     $diff = array_diff_assoc($pp, $_GET);

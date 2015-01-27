@@ -18,14 +18,13 @@ if (submitcheck('editsubmit')) {
     $styleid = dintval($_POST['styleid']);
     $priority = dintval($_POST['priority']);
     $param = trim($_POST['param']);
-    $param = explode("\r\n", $param);
-    $param = json_encode($param);
+    $param = $param ? explode("\r\n", $param) : array();
     $data = array(
             'styleid' => $styleid,
             'domain' => $domain,
             'script' => $script,
             'module' => $module,
-            'param' => $param,
+            'param' => json_encode($param),
             'priority' => $priority,
             'status' => $status,
             );
